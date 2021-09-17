@@ -44,7 +44,7 @@ int main()
         }
         cout << endl;
 
-        cout << "Give X oraz Y: ";
+        cout << "Give X and Y: ";
         cin >> variabley >> variablex;
         if(hiddentab[variablex-1][variabley-1] == 1) {
             visibletab[variablex-1][variabley-1] = "X";
