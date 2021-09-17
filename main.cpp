@@ -35,7 +35,7 @@ int main()
         cout << hitsleft << " ships left!\nU hit " << hitships << " ships" << endl;
         cout << triesintotal << " tries in total!" << endl;
 
-        int zmx, zmy;
+        int variablex, variabley;
         for(int x = 0; x < 10; x++) {
             for (int y = 0; y < 10; y ++) {
                 cout << visibletab[x][y] << "|";
@@ -44,14 +44,14 @@ int main()
         }
         cout << endl;
 
-        cout << "Podaj X oraz Y: ";
-        cin >> zmy >> zmx;
-        if(hiddentab[zmx-1][zmy-1] == 1) {
-            visibletab[zmx-1][zmy-1] = "X";
+        cout << "Give X oraz Y: ";
+        cin >> variabley >> variablex;
+        if(hiddentab[variablex-1][variabley-1] == 1) {
+            visibletab[variablex-1][variabley-1] = "X";
             hitsleft = hitsleft - 1;
             hitships = hitships + 1;
         } else {
-            visibletab[zmx-1][zmy-1] = "N";
+            visibletab[variablex-1][variabley-1] = "N";
         }
         triesintotal = triesintotal + 1;
         } while (hitsleft > 0);
