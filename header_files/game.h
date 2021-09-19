@@ -31,7 +31,7 @@ namespace Game
             std::string visibletab[10][10];
             visible_tab(visibletab);
             // declare how much hits you need to make + how much tries
-            int hits = 10, tries = 1;
+            int hits = 9, tries = 1;
 
             // just do a game till centrain point
             do {
