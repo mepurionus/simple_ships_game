@@ -1,0 +1,11 @@
+# ignore run files
+*.exe
+*.o
+
+# ignore vs code folder
+.vscode
+.temp
+
+# ignore debug stuff
+debug
+*.log
