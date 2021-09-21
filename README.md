@@ -2,7 +2,7 @@
 
 ## I made that game out of boredom waiting for my laptop to turn on.
 
-### Version 0.0.3
+### Version 0.0.4
 
 
 ##### To-Do

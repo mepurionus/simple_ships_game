@@ -4,6 +4,5 @@
 *.out
 
 # ignore folders
-debug
 .vscode
 .git
