@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-#include "write_info.h"
+#include <write_info.h>
 
 namespace CheckInVariables
 {

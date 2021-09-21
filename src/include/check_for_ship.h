@@ -1,7 +1,7 @@
 #pragma once
-#include "write_array.h"
-#include "write_info.h"
-#include "check.h"
+#include <write_array.h>
+#include <write_info.h>
+#include <check.h>
 #include <iostream>
 
 namespace CheckShip

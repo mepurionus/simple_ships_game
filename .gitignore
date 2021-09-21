@@ -1,11 +1,9 @@
 # ignore run files
 *.exe
 *.o
+*.out
 
-# ignore vs code folder
-.vscode
-.temp
-
-# ignore debug stuff
+# ignore folders
 debug
-*.log
+.vscode
+.git

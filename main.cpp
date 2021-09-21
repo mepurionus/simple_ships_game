@@ -1,5 +1,5 @@
-#include "header_files/headers/write_info.h"
-#include "header_files/game.h"
+#include <write_info.h>
+#include <game.h>
 #include <stdlib.h>
 
 int main()

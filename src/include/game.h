@@ -1,8 +1,8 @@
 #pragma once
 #include <iostream>
-#include "headers/write_array.h"
-#include "headers/write_info.h"
-#include "headers/check_for_ship.h"
+#include <write_array.h>
+#include <write_info.h>
+#include <check_for_ship.h>
 
 namespace Game
 {

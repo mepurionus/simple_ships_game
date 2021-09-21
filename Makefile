@@ -1,17 +1,14 @@
-all: removeoldbuild compile link clean
+
+windows: compile linkwin
+
+linux: compile linklin
 
 
 compile:
-	g++ -c main.cpp
+	g++ -I src/include -c main.cpp
 
-link:
+linkwin:
 	g++ main.o -o main.exe
-run: all
-	main.exe
 
-removeoldbuild:
-	del *.exe
-	del *.log
-
-clean:
-	del main.o
+linklin:
+	g++ main.o -o main.out
